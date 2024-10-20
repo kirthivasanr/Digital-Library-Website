@@ -1,0 +1,185 @@
+/* Global Styling */
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Quicksand', Calibri, sans-serif;
+	color: #333;
+	background-color: #F4F4F9;
+  }
+  
+  /* Body */
+  body {
+	text-align: center;
+	line-height: 1.6;
+  }
+  
+  /* Header */
+  div#header {
+	display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures content is spaced out */
+    padding: 10px;
+    background-color: #4B5663;
+  }
+  .logo {
+	display: flex;
+    width: 250px; /* Adjust size as needed */
+    height: 100px;
+    margin-right: 15px;
+	
+}
+  
+  div#header h1 {
+	flex: 1; /* Makes the heading take up all available space */
+    text-align: center; /* Centers the text */
+    font-size: 24px;
+    color: white; /* Adjust color as per your design */
+    margin: 0
+  }
+  
+  /* Container */
+  div#container {
+	width: 80%;
+	max-width: 1200px;
+	margin: 20px auto;
+	text-align: left;
+  }
+  
+  div#container h1 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 20px;
+  }
+  
+  /* Wrapper */
+  div#wrapper {
+	float: right;
+	width: 65%;
+	padding: 20px;
+	background-color: #ECEFF4;
+	border-radius: 8px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  div#wrapper p {
+	line-height: 1.8;
+	text-align: justify;
+	color: #3B4252;
+  }
+  
+  /* Navigation */
+  div#navigation {
+	float: left;
+	width: 25%;
+	background-color: #D8DEE9;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  div#navigation ul {
+	list-style-type: none;
+	padding-left: 0;
+  }
+  
+  div#navigation li {
+	margin-bottom: 15px;
+	font-size: 1.1em;
+  }
+  
+  div#navigation li a {
+	color: #434C5E;
+	transition: color 0.3s ease;
+  }
+  
+  div#navigation li a:hover {
+	color: #5E81AC;
+	text-decoration: underline;
+  }
+  
+  /* Footer */
+  div#footer {
+	clear: both;
+	padding: 20px;
+	background-color: #4C566A;
+	color: #ECEFF4;
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  div#footer p {
+	margin: 0;
+  }
+  
+  /* Forms */
+  label, input, button, select, textarea {
+	display: block;
+	margin: 10px 0;
+  }
+  
+  input, select, textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #D8DEE9;
+	border-radius: 4px;
+	font-size: 1em;
+  }
+  
+  button {
+	width: auto;
+	background-color: #5E81AC;
+	color: #FFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+	background-color: #81A1C1;
+  }
+  
+  /* Success/Error Messages */
+  .error {
+	color: #BF616A;
+	text-align: center;
+  }
+  
+  .success {
+	color: #A3BE8C;
+	text-align: center;
+  }
+  
+  /* Table Styling */
+  table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+  }
+  
+  table td, table th {
+	border: 1px solid #D8DEE9;
+	padding: 10px;
+  }
+  
+  table th {
+	background-color: #5E81AC;
+	color: white;
+  }
+  
+  table tr:nth-child(even) {
+	background-color: #ECEFF4;
+  }
+  
+  /* Links */
+  a {
+	color: #434C5E;
+	text-decoration: none;
+	padding: 5px;
+  }
+  
+  a:hover {
+	color: #81A1C1;
+  }
+  

@@ -1,0 +1,70 @@
+
+Prefer Wampserver, notepad++.
+Source code for creating a database for digital library website!!.
+
+by kirthivasan m r
+
+copy this code and paste it.
+----------------------------------------------------------------------------
+
+// Database for the website //
+
+1.create a database 
+
+
+
+2.create table for admin
+
+CREATE TABLE `admin` (
+ `AID` int NOT NULL AUTO_INCREMENT,
+ `ANAME` varchar(150) NOT NULL,
+ `APASS` varchar(150) NOT NULL,
+ PRIMARY KEY (`AID`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1
+
+3. create table for book 
+
+	CREATE TABLE `book` (
+ `BID` int NOT NULL AUTO_INCREMENT,
+ `BTITLE` varchar(150) NOT NULL,
+ `KEYWORDS` varchar(150) NOT NULL,
+ `FILE` varchar(150) NOT NULL,
+ PRIMARY KEY (`BID`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1
+
+
+4. create table for comment 
+
+CREATE TABLE `comment` (
+ `CID` int NOT NULL AUTO_INCREMENT,
+ `BID` int NOT NULL,
+ `SID` int NOT NULL,
+ `COMM` varchar(150) NOT NULL,
+ `LOGS` date NOT NULL,
+ PRIMARY KEY (`CID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+5. create table for request
+
+	CREATE TABLE `request` (
+ `RID` int NOT NULL AUTO_INCREMENT,
+ `ID` int NOT NULL,
+ `MES` text NOT NULL,
+ `LOGS` datetime NOT NULL,
+ PRIMARY KEY (`RID`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+6. create table for student 
+
+CREATE TABLE `student` (
+ `ID` int NOT NULL AUTO_INCREMENT,
+ `PASS` varchar(150) NOT NULL,
+ `MAIL` varchar(150) NOT NULL,
+ `DEP` varchar(150) NOT NULL,
+ `NAME` varchar(150) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL,
+ PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1
+
+-------------------------------------------------------------------------------------------------------
+
