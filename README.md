@@ -56,11 +56,7 @@ A fully functional web-based digital library system built using **PHP**, **MySQL
 
 ---
 
-## 📸 Screenshots
 
-*(Include some UI screenshots here if available)*
-
----
 
 ## 🤝 Contributors
 
