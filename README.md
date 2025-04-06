@@ -1,58 +1,68 @@
-📚 Digital Library Management System
-A fully functional web-based digital library system built using PHP, MySQL, and CSS. This platform allows students and administrators to interact with a virtual library efficiently, providing features like book management, user authentication, and real-time borrowing records.
+# 📚 Digital Library Management System
 
-🔧 Tech Stack
-Frontend: HTML, CSS
+A fully functional web-based digital library system built using **PHP**, **MySQL**, and **CSS**. This platform allows students and administrators to interact with a virtual library efficiently, providing features like book management, user authentication, and real-time borrowing records.
 
-Backend: PHP
+---
 
-Database: MySQL
+## 🔧 Tech Stack
 
-🎯 Features
-🔐 Authentication System
-Separate registration and login portals for Admin and Students
+- **Frontend:** HTML, CSS  
+- **Backend:** PHP  
+- **Database:** MySQL
 
-Password change functionality for both user roles
+---
 
-📘 Library Management
-Upload and manage books by genre and topic
+## 🎯 Features
 
-View all available books in a structured layout
+### 🔐 Authentication System
 
-Search/filter functionalities (optional but recommended)
+- Separate registration and login portals for **Admin** and **Students**
+- Password change functionality for both user roles
 
-👨‍🎓 Student Portal
-Browse available books
+### 📘 Library Management
 
-Borrow books (recorded in database)
+- Upload and manage books by genre and topic
+- View all available books in a structured layout
+- (Optional) Search/filter functionalities
 
-View borrowing history
+### 👨‍🎓 Student Portal
 
-🛠️ Admin Portal
-Add/edit/delete book entries
+- Browse available books
+- Borrow books (recorded in database)
+- View borrowing history
 
-View all student details and activity logs
+### 🛠️ Admin Portal
 
-Monitor borrowing records by topic/genre
+- Add/edit/delete book entries
+- View all student details and activity logs
+- Monitor borrowing records by topic/genre
 
-🗃️ Database Schema (Summary)
-Users Table (Admins & Students with roles)
+---
 
-Books Table (ID, Title, Author, Genre, Topic, etc.)
+## 🗃️ Database Schema (Summary)
 
-Borrow Table (Book ID, User ID, Borrow Date, etc.)
+- **Users Table:** Stores Admins & Students with roles
+- **Books Table:** ID, Title, Author, Genre, Topic, etc.
+- **Borrow Table:** Book ID, User ID, Borrow Date, etc.
 
-🚀 Getting Started
-Clone the repository
+---
 
-Import the SQL file into your phpMyAdmin
+## 🚀 Getting Started
 
-Update DB credentials in the PHP config file
+1. Clone the repository  
+2. Import the SQL file into your **phpMyAdmin**  
+3. Update DB credentials in the PHP config file  
+4. Launch using a local server like **XAMPP** or **WAMP**
 
-Launch using a local server like XAMPP or WAMP
+---
 
-📸 Screenshots
-(Include some UI screenshots here if you have them)
+## 📸 Screenshots
 
-🤝 Contributors
-Made with ❤️ by kirthivasan m r — B.Tech ECE, SRM Ramapuram
+*(Include some UI screenshots here if available)*
+
+---
+
+## 🤝 Contributors
+
+**Made with ❤️ by  kirthivasan m r — B.Tech ECE, SRM Ramapuram**
+
